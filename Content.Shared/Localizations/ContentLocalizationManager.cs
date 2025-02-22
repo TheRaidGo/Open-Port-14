@@ -10,7 +10,8 @@ namespace Content.Shared.Localizations
         [Dependency] private readonly ILocalizationManager _loc = default!;
 
         // If you want to change your codebase's language, do it here.
-        private const string Culture = "en-US";
+        private const string Culture = "ru-RU"; // Corvax-Localization
+        private const string FallbackCulture = "en-US"; // Corvax-Localization
 
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
@@ -26,8 +27,11 @@ namespace Content.Shared.Localizations
         public void Initialize()
         {
             var culture = new CultureInfo(Culture);
+            var fallbackCulture = new CultureInfo(FallbackCulture); // Corvax-Localization
 
             _loc.LoadCulture(culture);
+            _loc.LoadCulture(fallbackCulture); // Corvax-Localization
+            _loc.SetFallbackCluture(fallbackCulture); // Corvax-Localization
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
@@ -36,7 +40,7 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(culture, "LOC", FormatLoc);
             _loc.AddFunction(culture, "NATURALFIXED", FormatNaturalFixed);
             _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
-            _loc.AddFunction(culture, "PLAYTIME", FormatPlaytime);
+            _loc.AddFunction(culture, "MANY", FormatMany); // TODO: Temporary fix for MANY() fluent errors. Remove after resolve errors.
 
 
             /*
@@ -142,16 +146,6 @@ namespace Content.Shared.Localizations
             return Loc.GetString($"zzzz-fmt-direction-{dir.ToString()}");
         }
 
-        /// <summary>
-        /// Formats playtime as hours and minutes.
-        /// </summary>
-        public static string FormatPlaytime(TimeSpan time)
-        {
-            var hours = (int)time.TotalHours;
-            var minutes = time.Minutes;
-            return Loc.GetString($"zzzz-fmt-playtime", ("hours", hours), ("minutes", minutes));
-        }
-
         private static ILocValue FormatLoc(LocArgs args)
         {
             var id = ((LocValueString) args.Args[0]).Value;
@@ -239,16 +233,6 @@ namespace Content.Shared.Localizations
             );
 
             return new LocValueString(res);
-        }
-
-        private static ILocValue FormatPlaytime(LocArgs args)
-        {
-            var time = TimeSpan.Zero;
-            if (args.Args is { Count: > 0 } && args.Args[0].Value is TimeSpan timeArg)
-            {
-                time = timeArg;
-            }
-            return new LocValueString(FormatPlaytime(time));
         }
     }
 }
