@@ -165,7 +165,7 @@ namespace Content.Client.Credits
             contributeButton.OnPressed += _ =>
                 IoCManager.Resolve<IUriOpener>().OpenUri(linkGithub);
 
-            if (linkGithub == "")
+            if (linkGithub == "https://github.com/TheRaidGo/Open-Port-14")
                 contributeButton.Visible = false;
         }
 
