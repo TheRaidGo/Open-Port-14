@@ -1,3 +1,1 @@
 effect-sleepy = You feel a bit sleepy.
-
-effect-drifter = Your body feels a bit numb...

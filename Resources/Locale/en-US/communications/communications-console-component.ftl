@@ -13,7 +13,7 @@ comms-console-menu-time-remaining = Time remaining: {$time}
 
 # Popup
 comms-console-permission-denied = Permission denied
-comms-console-shuttle-unavailable = Evacuation is currently unavailable
+comms-console-shuttle-unavailable = Shuttle is currently unavailable
 comms-console-message-too-long = Message is too long
 
 # Placeholder values
@@ -24,4 +24,5 @@ comms-console-announcement-unknown-sender = Unknown
 comms-console-announcement-title-station = Communications Console
 comms-console-announcement-title-centcom = Central Command
 comms-console-announcement-title-nukie = Syndicate Nuclear Operative
-comms-console-announcement-title-station-ai = P.A.I.L
+comms-console-announcement-title-station-ai = Station AI
+comms-console-announcement-title-wizard = Wizard

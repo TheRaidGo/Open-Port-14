@@ -3,8 +3,8 @@ station-beacon-general = General
 station-beacon-command = Command
 station-beacon-bridge = Bridge
 station-beacon-vault = Vault
-station-beacon-captain = Overseer
 station-beacon-gateway = Gateway
+station-beacon-captain = Captain
 station-beacon-hop = HOP
 
 station-beacon-security = Security
@@ -82,14 +82,3 @@ station-beacon-disposals = Disposals
 station-beacon-cryosleep = Cryosleep
 station-beacon-escape-pod = Escape Pod
 station-beacon-vox = Vox Break Room
-
-station-beacon-trieste-dorms = Trieste Dorms
-station-beacon-sweetwater-dorms = Sweetwater Dorms
-
-station-beacon-trieste-engineering = Trieste Engineering
-station-beacon-sweetwater-engineering = Sweetwater Engineering
-
-station-beacon-wastes = Waste Area
-station-beacon-trieste = Trieste Platform
-station-beacon-sweetwater = Sweetwater
-station-beacon-settlers = Settler's Outpost
