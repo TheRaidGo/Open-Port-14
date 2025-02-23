@@ -13,6 +13,9 @@ reagent-desc-polytrinic-acid = An extremely corrosive chemical substance. Severe
 reagent-name-chloral-hydrate = chloral hydrate
 reagent-desc-chloral-hydrate = A sedative and hypnotic chemical. Commonly used to put other people to sleep, whether they want to or not.
 
+reagent-name-drifter-toxin = drifter toxin
+reagent-desc-drifter-toxin = A very effective sedative only gathered from Drifters.
+
 reagent-name-gastrotoxin = gastrotoxin
 reagent-desc-gastrotoxin = A moderately toxic byproduct of decomposition. Most commonly found in spoiled food.
 
@@ -81,3 +84,9 @@ reagent-desc-lipolicide = A powerful toxin that will destroy fat cells, massivel
 
 reagent-name-mechanotoxin = mechanotoxin
 reagent-desc-mechanotoxin = A neurotoxin used as venom by some species of spider. Degrades movement when built up.
+
+reagent-name-mimicrium = mimicrium
+reagent-desc-mimicrium = A highly effective, but rare liquid used by deep sea ambush predators to electrocute their prey.
+
+reagent-name-seagulltoxin = seagull poop
+reagent-desc-seagulltoxin = The droppings of sky rats. Definitely not safe to eat.
