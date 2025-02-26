@@ -70,11 +70,3 @@
 - type: tileAlias
   id: FloorSteelBurnt
   target: FloorSteelDamaged
-
-- type: tileAlias
-  id: FloorInvisibleReal
-  target: FloorGlass
-
-- type: tileAlias
-  id: FloorInvisible
-  target: FloorGlass
