@@ -34,3 +34,6 @@ ent-NitrousOxideTankFilled = баллон оксида азота
 ent-PlasmaTankFilled = баллон плазмы
     .suffix = Заполненный
     .desc = { ent-PlasmaTank.desc }
+ent-TP14WaterTankEmergencyFilled = аварийный резервуар для воды
+    .suffix = Заполненный
+    .desc = Резервуар, предназначенный для хранения небольшого количества воды. Этого хватит ненадолго.
