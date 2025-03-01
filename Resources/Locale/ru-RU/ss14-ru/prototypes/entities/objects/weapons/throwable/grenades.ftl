@@ -45,5 +45,5 @@ ent-SyndieTrickyBomb = хитроумная бомба
 # Corvax-HiddenDesc-End
 
 ent-TP14BeachballGrenade = пляжный мяч
-suffix = Контрабанда
+    .suffix = Контрабанда
     .desc = Пляжный мяч торговой марки NT. Этот мяч на удивление прочный.
