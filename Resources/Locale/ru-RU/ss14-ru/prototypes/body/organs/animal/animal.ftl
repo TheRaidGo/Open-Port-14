@@ -17,6 +17,5 @@ ent-OrganAnimalKidneys = почки
 ent-OrganWaterLungs = жабры
     .desc = Отфильтровывает воздух из воды для дыхания.
 
-<! — mimic organs –>
 ent-OrganTumor = гнойная опухоль
     .desc = что... что это такое?

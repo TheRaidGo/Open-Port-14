@@ -54,3 +54,5 @@ ent-FrezonCanisterBroken = { ent-GasCanisterBrokenBase }
     .desc = { ent-GasCanisterBrokenBase.desc }
 ent-WatercanisterBroken = { ent-GasCanisterBrokenBase }
     .desc = { ent-GasCanisterBrokenBase.desc }
+ent-TP14WaterCanister = канистра с водой
+    .desc = Это канистра для ГАЗОВ! Кто, черт возьми, налил в нее воды?
