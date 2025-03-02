@@ -15,7 +15,7 @@ ent-OrganAnimalHeart = сердце
 ent-OrganAnimalKidneys = почки
     .desc = { ent-BaseAnimalOrgan.desc }
 ent-OrganWaterLungs = жабры
-    .desc = Отфильтровывает воздух из воды для дыхания.
+    .desc = Отфильтровывают воздух из воды для дыхания.
 
 ent-OrganTumor = гнойная опухоль
     .desc = что... что это такое?
